@@ -141,6 +141,20 @@
         </section>
 
         <section class="document-section">
+          <h2>4-1. 개인정보의 국외 이전</h2>
+          <p>앱은 Firebase Firestore 및 Google Cloud 기반 서비스를 이용하는 과정에서 이 방침에 적은 정보가 국외에 위치한 서비스에 이전되거나 국외에서 접근·처리될 수 있음을 안내합니다. Firestore의 데이터베이스 리전과 Google/Firebase의 각 서비스별 처리 지역은 서로 다를 수 있으므로, 데이터가 모두 국내에만 처리된다고 단정하지 않습니다.</p>
+          <ul>
+            <li><strong>이전받는 자:</strong> Google/Firebase 서비스 제공자</li>
+            <li><strong>이전되는 국가 또는 처리 지역:</strong> Google/Firebase 서비스의 실제 국가와 처리 지역은 서비스 구성 및 제공 방식에 따라 달라질 수 있습니다. 이 프로젝트에서 확인 가능한 자료만으로 개별 처리 국가를 특정할 수 없어 확인이 필요합니다.</li>
+            <li><strong>국외 이전 목적:</strong> 기기 등록, 앱 설정 동기화, 가격 알림·푸시 알림 및 Live Activity와 같은 기능 제공, KIS API 연결 정보의 서버 보관·처리</li>
+            <li><strong>이전되는 개인정보 항목:</strong> 앱 설치 식별자, 기기·앱 정보와 푸시 토큰, 동기화되는 즐겨찾기·대표 종목·가격 알림 설정, 사용자가 연결한 경우 KIS App Key와 App Secret 등 제2항에 적은 정보 중 각 기능에 필요한 범위</li>
+            <li><strong>이전 방법:</strong> 앱과 서버가 암호화된 통신을 통해 Google/Firebase 서비스로 전송하거나, 서버가 해당 서비스에 저장·조회하는 방법</li>
+            <li><strong>이전 시점:</strong> 앱 실행에 따른 기기 등록, 설정 동기화, 가격 알림·푸시 알림·Live Activity 이용 또는 KIS API 연결 등 각 기능을 사용하는 시점</li>
+            <li><strong>보유 및 이용기간:</strong> 서비스 제공에 필요한 기간 또는 삭제 요청이 처리될 때까지 보유·이용합니다. Google/Firebase 서비스별 보관 및 삭제 처리 기간은 이 프로젝트에서 정하고 있지 않아 해당 서비스의 정책과 설정을 별도로 확인해야 합니다.</li>
+          </ul>
+        </section>
+
+        <section class="document-section">
           <h2>5. 어떻게 보호하나요?</h2>
           <p>앱은 필요한 정보만 사용하고, 서버로 전송되는 통신은 배포 환경에서 암호화된 연결을 사용합니다. KIS App Key와 App Secret은 서버에서 암호화하여 보관하며 로그에 기록하지 않습니다.</p>
           <p>앱 화면에서는 App Secret을 다시 보여주지 않습니다. 다만 어떤 온라인 서비스도 완전히 위험이 없다고 보장할 수 없으므로, 사용하지 않는 KIS API 연결은 해제하고 API 제공자의 보안 설정도 함께 관리해 주세요.</p>
